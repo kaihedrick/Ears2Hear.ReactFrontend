@@ -1,0 +1,48 @@
+.container {
+    max-width: 800px !important;
+    padding-top: 60px !important; 
+}
+
+h2 {
+    font-weight: bold !important;
+    color: #1e0f14 !important; 
+    text-align: center !important;
+}
+
+.table-dark {
+    background-color: #1e0f14 !important; 
+    color: #c6c2b7 !important; 
+}
+
+.table-hover tbody tr:hover {
+    background-color: #ad9da0 !important; 
+}
+
+.fa-heart {
+    cursor: pointer !important;
+    transition: transform 0.3s ease, color 0.3s ease !important;
+    color: #9f7f7b !important; 
+}
+
+.fa-heart:hover {
+    transform: scale(1.2) !important; 
+    color: #614b4e !important; 
+}
+
+.alert-danger {
+    background-color: #9f7f7b !important; 
+    color: #ffffff !important; 
+    border-radius: 5px !important; 
+    padding: 10px 15px !important; 
+}
+
+.text-muted {
+    color: #ad9da0 !important; 
+    font-size: 0.9rem !important; 
+}
+
+body {
+    background-color: #1e0f14 !important; 
+    color: #c6c2b7 !important; 
+    padding-top: 80px !important; 
+}

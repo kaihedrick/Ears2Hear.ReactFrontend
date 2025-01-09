@@ -1,0 +1,93 @@
+body, h1, h2, p {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+body {
+    font-family: 'Arial', sans-serif !important;
+    line-height: 1.6 !important;
+    color: #1e0f14 !important;
+    background-color: #c6c2b7 !important;
+    padding-top: 80px !important; 
+}
+
+.hero {
+    background: linear-gradient(45deg, #614b4e, #9f7f7b) !important;
+    color: #c6c2b7 !important;
+    text-align: center !important;
+    padding: 50px 20px !important;
+    border-radius: 10px !important;
+    margin-bottom: 20px !important;
+}
+
+.hero .welcome-message h1 {
+    font-size: 3rem !important;
+    margin-bottom: 10px !important;
+    color: #c6c2b7 !important;
+}
+
+.hero .welcome-message p {
+    font-size: 1.2rem !important;
+    margin-bottom: 20px !important;
+}
+
+.hero .btn-primary, .hero .btn-secondary {
+    text-decoration: none !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    margin: 0 5px !important;
+    font-size: 1rem !important;
+    display: inline-block !important;
+    font-weight: bold !important;
+}
+
+.hero .btn-primary {
+    background-color: #1e0f14 !important;
+    color: #c6c2b7 !important;
+    border: 1px solid #614b4e !important;
+    transition: background-color 0.3s ease, color 0.3s ease !important;
+}
+
+.hero .btn-primary:hover {
+    background-color: #c6c2b7 !important; 
+    color: #1e0f14 !important; 
+    border: 1px solid #614b4e !important; 
+}
+
+.hero .btn-secondary {
+    background-color: #c6c2b7 !important;
+    color: #1e0f14 !important;
+    border: 1px solid #9f7f7b !important;
+}
+
+.hero .btn-secondary:hover {
+    background-color: #9f7f7b !important;
+    color: #c6c2b7 !important;
+}
+
+.features {
+    display: flex !important;
+    justify-content: space-around !important;
+    padding: 40px 20px !important;
+    background-color: #f7f7f7 !important;
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.features .feature {
+    text-align: center !important;
+    max-width: 300px !important;
+}
+
+.features .feature h2 {
+    color: #614b4e !important;
+    margin-bottom: 10px !important;
+    font-size: 1.5rem !important;
+}
+
+.features .feature p {
+    font-size: 1rem !important;
+    color: #1e0f14 !important;
+}

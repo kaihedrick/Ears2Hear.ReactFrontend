@@ -1,0 +1,61 @@
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+  
+  h2 {
+    font-weight: bold;
+    color: #1e0f14; 
+  }
+  
+  .table-dark {
+    background-color: #1e0f14; 
+    color: #c6c2b7; 
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #ad9da0; 
+  }
+  
+  .fa-heart {
+    transition: transform 0.2s ease, color 0.3s ease;
+  }
+  
+  .fa-heart:hover {
+    transform: scale(1.2); 
+  }
+  
+  .settings-icon {
+    font-size: 1.5rem;
+    color: #9f7f7b; 
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.3s ease;
+  }
+  
+  .settings-icon:hover {
+    color: #614b4e; 
+    transform: scale(1.2); 
+  }
+  
+  .actions-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+  }
+  
+  .alert-info {
+    background-color: #c6c2b7; 
+    color: #1e0f14; 
+  }
+  
+  .alert-danger {
+    background-color: #9f7f7b; 
+    color: #ffffff; 
+  }
+  
+  body {
+    background-color: #1e0f14; 
+    color: #c6c2b7; 
+  }
+  

@@ -1,0 +1,77 @@
+.container {
+    max-width: 400px;
+  }
+  
+  .card {
+    border-radius: 10px !important;
+    background-color: #c6c2b7 !important; 
+    border: 1px solid #ad9da0 !important; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  h2 {
+    font-weight: bold !important;
+    color: #1e0f14 !important;
+  }
+  
+  .form-label {
+    color: #614b4e !important; 
+    font-weight: bold !important;
+  }
+  
+  .form-control {
+    border: 1px solid #ad9da0 !important;
+    background-color: #ffffff !important; 
+    color: #1e0f14 !important;
+    border-radius: 5px !important;
+  }
+  
+  .form-control:focus {
+    border-color: #9f7f7b !important; 
+    box-shadow: 0 0 5px #9f7f7b !important;
+  }
+  
+  button {
+    width: 100% !important;
+    background-color: #614b4e !important; 
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 5px !important;
+    font-weight: bold !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease !important;
+  }
+  
+  button:hover {
+    background-color: #9f7f7b !important; 
+    color: #1e0f14 !important;
+  }
+  
+  button:focus {
+    box-shadow: 0 0 5px #9f7f7b !important;
+  }
+  
+  .text-danger {
+    color: #ff5e57 !important; 
+  }
+  
+  .text-success {
+    color: #87c386 !important;
+  }
+  
+  body {
+    background-color: white !important; 
+    color: #c6c2b7 !important; 
+  }
+  
+  .register-link {
+    color: #9f7f7b !important; 
+    text-decoration: none !important;
+    font-weight: bold !important;
+    transition: color 0.3s ease, text-decoration 0.3s ease !important;
+  }
+  
+  .register-link:hover {
+    color: #614b4e !important; 
+    text-decoration: underline !important;
+  }
+  
