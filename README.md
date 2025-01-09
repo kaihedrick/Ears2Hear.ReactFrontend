@@ -1,6 +1,7 @@
 # Ears2Hear Music App
 
 Ears2Hear is a music app designed to provide Christians with a platform to explore, manage, and enjoy a diverse range of Christian-themed music. Inspired by King David's acts of worship, the app aims to make it easier for people of faith to find music that uplifts their spirits and helps them connect with God.
+![Ears2HearReactGif](https://github.com/user-attachments/assets/f48aec0b-9870-45a3-8ada-5c0f09a083db)
 
 ## Key Features
 
