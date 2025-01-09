@@ -49,7 +49,7 @@ All backend API endpoints were tested using [Postman](https://documenter.getpost
 
 ## GitHub Repositories
 
-- [Frontend Repository](https://github.com/kaihedrick/ears2hear.react)
+- [Frontend Repository](https://github.com/kaihedrick/ears2hear.ReactFrontend)
 - [Backend Repository](https://github.com/kaihedrick/Ears2Hear.Backend)
 
 ## References
