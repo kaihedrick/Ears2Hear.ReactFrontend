@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Ears2Hear Music App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ears2Hear is a music app designed to provide Christians with a platform to explore, manage, and enjoy a diverse range of Christian-themed music. Inspired by King David's acts of worship, the app aims to make it easier for people of faith to find music that uplifts their spirits and helps them connect with God.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+- **User Registration**: Create accounts with field validation for secure and accurate inputs.
+- **Track Management**: Create, edit, and delete tracks with confirmation prompts for secure actions.
+- **Playlist Management**: Add, view, update, and delete playlists for personalized music collections.
+- **Favorites**: Save and manage favorite tracks for quick access.
+- **UI Enhancements**: Improved design, cohesive color scheme, and a static Navbar for smooth navigation.
 
-### `npm start`
+## Updates and Enhancements (Milestone 5)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| **Update Type**      | **Description**                                                                 | **Status** |
+|-----------------------|---------------------------------------------------------------------------------|------------|
+| **User Registration** | Added validation for names, passwords, and email formats.                      | Completed  |
+| **Create Tracks**     | Users can create new tracks not available in the app.                          | Completed  |
+| **Edit Tracks**       | Users can edit tracks with safeguards before saving changes.                   | Completed  |
+| **Delete Tracks**     | Added confirmation prompts to prevent accidental deletions.                    | Completed  |
+| **Track UI Changes**  | Added icons for liking/unliking and editing tracks.                            | Completed  |
+| **Navbar**            | Static Navbar remains visible during scrolling.                                | Completed  |
+| **UI Enhancements**   | Cohesive color scheme and improved overall design for better usability.        | Completed  |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## User Stories
 
-### `npm test`
+| **User Story**                                                                 | **Route**                           | **Description**                                                                                                                                 |
+|-------------------------------------------------------------------------------|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| View all available tracks                                                    | `GET /tracks`                       | Fetches all tracks for listening and management.                                                                                                |
+| Add tracks to a playlist                                                     | `POST /playlists/:playlist_id/tracks/:track_id` | Adds a track to a playlist.                                                                                                                     |
+| Play music                                                                   | `GET /tracks/{trackId}/play`        | Plays a track by its ID.                                                                                                                        |
+| Manage playlists (view, create, update, delete)                              | Various playlist-related routes     | Allows users to manage playlists with functionality for creating, updating, and deleting playlists.                                             |
+| Add/remove tracks from favorites                                             | `POST/DELETE /users/{userId}/tracks/{trackId}` | Adds or removes tracks from the user's favorites.                                                                                               |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Risks and Unknowns
 
-### `npm run build`
+- Determining the need for additional database tables/classes for artists.
+- Managing variables involved in creating a music player.
+- Integrating track files into the database.
+- Designing and integrating account creation with the Navbar.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API Documentation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+All backend API endpoints were tested using [Postman](https://documenter.getpostman.com/view/36796918/2sAY4xC2bP) for consistency and correctness.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Video Demos
 
-### `npm run eject`
+- [Frontend Presentation](https://www.loom.com/share/f648fd13468741c888a77931de85b1fd?sid=a060bcc2-ea86-4d6c-9c3a-0891bacaa593)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## GitHub Repositories
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Frontend Repository](https://github.com/kaihedrick/ears2hear.react)
+- [Backend Repository](https://github.com/kaihedrick/Ears2Hear.Backend)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## References
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Bible Gateway - New International Version](http://www.biblegateway.com/versions/New-International-Version-NIV-Bible/#booklist)
